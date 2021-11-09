@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
   hr: {
-    marginTop: 19,
+    marginTop: 20,
     marginBottom: 20,
     borderBottomColor: "black",
     borderBottomWidth: 1
@@ -24,6 +24,6 @@ export const modulesOptions = {
   "@modules/app-menu": {
     title: "App Menu1",
     copy: "Routes available!",
-    styles: styles
+    styles: mystyles
   }
 }
